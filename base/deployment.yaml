@@ -6,7 +6,6 @@ metadata:
     stack: labs
   name: webserver
 spec:
-#  replicas: 1
   selector:
     matchLabels:
       app: webserver
